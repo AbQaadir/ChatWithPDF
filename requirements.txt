@@ -1,0 +1,6 @@
+chainlit==1.1.202
+langchain==0.2.3
+langchain_community==0.2.4
+langchain_groq==0.1.5
+PyPDF2==3.0.1
+chromadb
