@@ -11,7 +11,10 @@ import chainlit as cl
 
 from dotenv import load_dotenv
 load_dotenv()  #
+
 groq_api_key = os.environ['GROQ_API_KEY']
+os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
+os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 
 # llm_local = ChatOllama(model="phi3") 
 llm_groq = ChatGroq(
