@@ -34,7 +34,7 @@ Run the application using Chainlit:
 
 ```bash
 chainlit run app.py -d
-```"# ChatWithPDF" 
+```"
 
 ![image](https://github.com/AbQaadir/ChatWithPDF/assets/126993904/ccb23813-3621-4c37-a58d-acc8f6eb1013)
 
