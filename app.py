@@ -6,7 +6,10 @@ from langchain_community.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.chat_models import ChatOllama
 from langchain_groq import ChatGroq
-from langchain.memory import ChatMessageHistory, ConversationBufferMemory
+from langchain.memory import ConversationBufferMemory
+from langchain_community.chat_message_histories import ChatMessageHistory
+
+
 import chainlit as cl
 
 from dotenv import load_dotenv
